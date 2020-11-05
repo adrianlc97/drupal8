@@ -1,0 +1,20 @@
+/**
+ * @file
+ * Subtheme specific CSS.
+ */
+ 
+ .navbar-brand img{
+ 	margin-right:15px;
+	 max-width:65px;
+	 height:auto;
+ }
+ 
+ .navbar-brand{
+ 	display: flex;
+ 	align-items: center;
+ 	font-family: 'Roboto';
+ }
+ 
+ #block-cocina-seccionescocina{
+ 	background:black;
+ }

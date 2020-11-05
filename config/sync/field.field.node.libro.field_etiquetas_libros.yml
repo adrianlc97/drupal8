@@ -1,0 +1,29 @@
+uuid: e57fbe32-a369-4cc3-b3c2-ae819819a213
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_etiquetas_libros
+    - node.type.libro
+    - taxonomy.vocabulary.etiquetas_libros
+id: node.libro.field_etiquetas_libros
+field_name: field_etiquetas_libros
+entity_type: node
+bundle: libro
+label: 'etiquetas libros'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      etiquetas_libros: etiquetas_libros
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

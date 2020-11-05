@@ -1,0 +1,18 @@
+uuid: 99ff133e-5345-41b4-861f-7af20a3bd2e8
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.landing
+id: node.landing.created
+field_name: created
+entity_type: node
+bundle: landing
+label: Fecha
+description: 'La fecha en que el nodo fue creado.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

@@ -1,0 +1,10 @@
+uuid: 42b7bf2f-2e82-4fd7-9471-d4a62e4d2c48
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: node.full_libro
+label: 'full libro'
+targetEntityType: node
+cache: true

@@ -1,0 +1,18 @@
+palette:
+  top: '#c7d364'
+  bottom: '#403fdf'
+  bg: '#ffffff'
+  sidebar: '#ffffff'
+  sidebarborders: '#cccccc'
+  footer: '#016b83'
+  button: '#019dbf'
+  buttonhover: '#016c83'
+  titleslogan: '#000000'
+  text: '#4a4a4a'
+  link: '#019dbf'
+logo: 'public://color/cocina-ba3f1ab2/logo.svg'
+stylesheets:
+  - 'public://color/cocina-ba3f1ab2/colors.css'
+files:
+  - 'public://color/cocina-ba3f1ab2/logo.svg'
+  - 'public://color/cocina-ba3f1ab2/colors.css'

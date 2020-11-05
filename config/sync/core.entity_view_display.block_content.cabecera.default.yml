@@ -1,0 +1,30 @@
+uuid: 8c802c44-44ed-4aea-ac54-e17d8e5dfc44
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.cabecera
+    - field.field.block_content.cabecera.field_img
+  module:
+    - image
+id: block_content.cabecera.default
+targetEntityType: block_content
+bundle: cabecera
+mode: default
+content:
+  field_img:
+    weight: 1
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  titulo_cabecera_default:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

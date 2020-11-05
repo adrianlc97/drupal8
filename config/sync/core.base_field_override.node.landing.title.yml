@@ -1,0 +1,18 @@
+uuid: ca79efcd-db12-46f0-b237-de192ddd0035
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.landing
+id: node.landing.title
+field_name: title
+entity_type: node
+bundle: landing
+label: Title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

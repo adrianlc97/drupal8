@@ -1,0 +1,33 @@
+uuid: 1649d14e-0a40-4ae3-95fd-c2a8d35a2094
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_localizacion
+    - node.type.tienda
+  module:
+    - geofield
+id: node.tienda.field_localizacion
+field_name: field_localizacion
+entity_type: node
+bundle: tienda
+label: Localizacion
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: 'POINT (-0.944824 41.623655)'
+    geo_type: Point
+    lat: 41.623655
+    lon: -0.944824
+    left: -0.944824
+    top: 41.623655
+    right: -0.944824
+    bottom: 41.623655
+    geohash: ezrkf925258j
+    latlon: '41.623655,-0.944824'
+default_value_callback: ''
+settings:
+  backend: geofield_backend_default
+field_type: geofield

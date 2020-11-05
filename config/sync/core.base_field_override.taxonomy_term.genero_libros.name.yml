@@ -1,0 +1,18 @@
+uuid: 5e912460-7e11-4a98-95b9-76e8227f4823
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.genero_libros
+id: taxonomy_term.genero_libros.name
+field_name: name
+entity_type: taxonomy_term
+bundle: genero_libros
+label: Name
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

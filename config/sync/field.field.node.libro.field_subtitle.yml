@@ -1,0 +1,19 @@
+uuid: db4c0e44-7972-4324-8276-2fc77f3ac733
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_subtitle
+    - node.type.libro
+id: node.libro.field_subtitle
+field_name: field_subtitle
+entity_type: node
+bundle: libro
+label: subtitulo
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

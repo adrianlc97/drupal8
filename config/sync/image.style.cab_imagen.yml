@@ -1,0 +1,15 @@
+uuid: d45e1612-ea1c-4cc9-b0d8-340c13124cf1
+langcode: es
+status: true
+dependencies: {  }
+name: cab_imagen
+label: 'cab imagen'
+effects:
+  1f01360e-7756-4e7e-af06-3dbcbd5fe928:
+    uuid: 1f01360e-7756-4e7e-af06-3dbcbd5fe928
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1920
+      height: 550
+      anchor: center-center

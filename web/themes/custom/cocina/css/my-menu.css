@@ -1,0 +1,27 @@
+/**
+ * @file
+ * Subtheme specific CSS.
+ */
+ 
+ #header{
+  color:white;
+ }
+ #block-seccionescocina-2{
+ 	background-color:black;
+ 	color:white;
+ 	border: 5px solid white;
+ }
+ 
+ 
+ .clearfix menu{
+ 	color:white;
+ }
+ 
+ #content{
+ 	background-color:gray;
+ 	border: 5px solid black;
+ }
+ .highlighted{
+ 	background-color:blue;
+ 
+ }

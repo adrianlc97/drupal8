@@ -1,0 +1,22 @@
+uuid: 3783c10d-945e-409d-8554-3c0ab27741bb
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.libro
+id: node.libro.promote
+field_name: promote
+entity_type: node
+bundle: libro
+label: 'Promocionado a la página principal'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activado
+  off_label: Desactivado
+field_type: boolean

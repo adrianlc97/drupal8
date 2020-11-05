@@ -1,0 +1,22 @@
+uuid: 7e21857d-a50e-44c8-b4c4-332dd332a01a
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.cabecera
+id: block_content.cabecera.status
+field_name: status
+entity_type: block_content
+bundle: cabecera
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Activado
+  off_label: Desactivado
+field_type: boolean

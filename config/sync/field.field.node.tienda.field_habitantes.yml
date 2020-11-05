@@ -1,0 +1,21 @@
+uuid: 732786b9-0288-4eb0-b516-40d31a6d1e5a
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_habitantes
+    - node.type.tienda
+id: node.tienda.field_habitantes
+field_name: field_habitantes
+entity_type: node
+bundle: tienda
+label: habitantes
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings: {  }
+field_type: entity_reference

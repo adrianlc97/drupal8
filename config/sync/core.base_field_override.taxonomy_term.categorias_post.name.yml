@@ -1,0 +1,18 @@
+uuid: ad87f868-17d3-4bc4-b195-c94ffbf83675
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.categorias_post
+id: taxonomy_term.categorias_post.name
+field_name: name
+entity_type: taxonomy_term
+bundle: categorias_post
+label: Name
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

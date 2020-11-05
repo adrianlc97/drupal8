@@ -1,0 +1,39 @@
+uuid: dea41234-a071-454c-9cc4-c1e7ddd88bec
+langcode: es
+status: true
+dependencies:
+  config:
+    - block_content.type.cabecera
+    - field.field.block_content.cabecera.field_img
+    - image.style.thumbnail
+  module:
+    - image
+id: block_content.cabecera.default
+targetEntityType: block_content
+bundle: cabecera
+mode: default
+content:
+  field_img:
+    weight: 26
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden: {  }

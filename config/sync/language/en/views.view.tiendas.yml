@@ -1,0 +1,23 @@
+display:
+  default:
+    display_options:
+      header:
+        area:
+          content:
+            value: "<p><a class=\"btn btn-primary\" href=\"descarga/listado/tienda\">Descarga CSV </a></p>\r\n"
+            format: full_html
+        area_1:
+          content:
+            value: "<p><a class=\"btn btn-primary\" href=\"node/add/tienda\">Crear Tienda </a></p>\r\n"
+            format: full_html
+  page_1:
+    display_options:
+      header:
+        area:
+          content:
+            value: "<p><a class=\"btn btn-primary\" href=\"descarga/listado/tienda\">Descarga CSV EN </a></p>\r\n"
+            format: full_html
+        area_1:
+          content:
+            value: "<p><a class=\"btn btn-primary\" href=\"node/add/tienda\">Crear Tienda </a></p>\r\n"
+            format: full_html

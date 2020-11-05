@@ -1,0 +1,18 @@
+uuid: 960bf9ab-9dc3-4012-b2ab-b6a3b8d3df21
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.habitantes
+id: taxonomy_term.habitantes.name
+field_name: name
+entity_type: taxonomy_term
+bundle: habitantes
+label: Name
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

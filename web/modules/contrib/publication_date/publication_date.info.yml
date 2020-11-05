@@ -1,0 +1,11 @@
+name: Publication Date
+description: "Add a field containing the publication date."
+type: module
+core: 8.x
+configure: admin/config/content/publication-date
+core_version_requirement: ^8 || ^9
+
+# Information added by Drupal.org packaging script on 2020-09-12
+version: '8.x-2.0-beta2'
+project: 'publication_date'
+datestamp: 1599891408

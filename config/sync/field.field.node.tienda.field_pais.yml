@@ -1,0 +1,33 @@
+uuid: 12853cba-2cca-4a93-af84-e5f6a703b236
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pais
+    - node.type.tienda
+    - taxonomy.vocabulary.pais
+  content:
+    - 'taxonomy_term:pais:df2b9c48-5a33-4f00-a29c-48b25334c6d7'
+id: node.tienda.field_pais
+field_name: field_pais
+entity_type: node
+bundle: tienda
+label: pais
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    target_uuid: df2b9c48-5a33-4f00-a29c-48b25334c6d7
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      pais: pais
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

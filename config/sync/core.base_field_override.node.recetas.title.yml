@@ -1,0 +1,18 @@
+uuid: b539c054-8bae-446f-b7a6-ad55ccbc545b
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.recetas
+id: node.recetas.title
+field_name: title
+entity_type: node
+bundle: recetas
+label: Title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
