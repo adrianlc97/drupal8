@@ -1,0 +1,11 @@
+<div>
+  <h1>{{ title }}</h1>
+  <ul>
+    {% for post in items %}
+      <li>
+        <h2>{{ post.title|e }}</h2>
+        <div>{{ post.body }}</div>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
